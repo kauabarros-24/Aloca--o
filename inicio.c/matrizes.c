@@ -8,9 +8,9 @@ int main() {
         p[i] = (int*)malloc(sizeof(int)*m);
     }
     k = 1;
-    for (i = 0; i < n; i++) {
+    for (i = 0; i < m; i++) {
         p[i][j] = k;
-        ++k;
+        k++;
         printf("%d ", p[i][j]);
     }
     printf("\n");
