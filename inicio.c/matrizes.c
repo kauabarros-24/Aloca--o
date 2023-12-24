@@ -7,4 +7,11 @@ int main() {
     for (i = 0; i < n; i++) {
         p[i] = (int*)malloc(sizeof(int)*m);
     }
+    k = 1;
+    for (i = 0; i < n; i++) {
+        p[i][j] = k;
+        ++k;
+        printf("%d ", p[i][j]);
+    }
+    printf("\n");
 }
